@@ -70,10 +70,10 @@ var APIOperationBase = function () {
 	}, {
 		key: 'setClientId',
 		value: function setClientId() {
-			for (var obj in this._request) {
-				this._request[obj]['clientId'] = config.clientId;
-				break;
-			}
+		//	for (var obj in this._request) {
+		//		this._request[obj]['clientId'] = config.clientId;
+		//		break;
+		//	}
 		}
 	}, {
 		key: 'setEnvironment',
